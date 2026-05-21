@@ -13,8 +13,9 @@ export default function Footer() {
           </div>
 
           <p className="font-body-sm text-body-sm text-on-primary-fixed-variant mb-10">
-            © 2024 GlobalPath Visa & Education. Providing expert guidance for
-            international students and families pursuing excellence abroad.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
+            porttitor nunc a nunc auctor, a ultrices nunc auctor. Integer
+            elit.
           </p>
         </div>
 
@@ -56,7 +57,7 @@ export default function Footer() {
           {/* Offices */}
           <div>
             <h4 className="font-label-md text-label-md text-on-primary mb-6">
-              Office Locations
+              Branch Locations
             </h4>
             <ul className="flex flex-col gap-2">
               <li>
@@ -112,7 +113,7 @@ export default function Footer() {
       {/* Bottom */}
       <div className="text-center">
         <span className="font-label-sm text-label-sm text-on-primary-fixed-variant italic">
-          Trusted by over 50+ Partner Universities worldwide.
+          Copyright © 2016–2026 NexusGroupe. All rights reserved.
         </span>
       </div>
     </footer>
