@@ -6,19 +6,23 @@ import Course from "@/components/section/Course";
 import Faq from "@/components/section/Faq";
 import Hero from "@/components/section/Hero";
 import Team from "@/components/section/Team";
+import Contact from "@/components/section/Contact";
+import Branch from "@/components/section/Branch";
 
 
 export default function Home() {
   return (
     <>
-      <Header />
-      <Hero />
+      {/* <Header /> */}
+      {/* <Hero /> */}
       <About />
-      <Course />
-      <Team />
-      <Choose />
-      <Faq />
-      <Footer />
+      {/* <Course /> */}
+      {/* <Team /> */}
+      {/* <Choose /> */}
+      {/* <Faq /> */}
+      <Contact />
+      <Branch />
+      {/* <Footer /> */}
     </>
   );
 }
