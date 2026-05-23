@@ -49,93 +49,103 @@ const aboutCards = [
 
 export default function About() {
   return (
-    <section className="py-16 md:py-20 px-4 container mx-auto">
-      <div className="grid lg:grid-cols-12 gap-10 items-center">
+    <section className="py-12 md:py-16 lg:py-20 px-4">
+      <div className="container mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
 
-        {/* Image */}
-        <div className="lg:col-span-6">
-          <div className="flex gap-5">
-            <div className="w-1/2">
-              <Image
-                src="/images/ceo.jpg"
-                alt="Counselor helping student"
-                width={600}
-                height={800}
-                className="w-full h-[450px] object-cover rounded-xl shadow-xl border border-outline-variant"
-              />
-            </div>
+          {/* Images */}
+          <div className="lg:col-span-6">
+            <div className="grid grid-cols-2 gap-3 sm:gap-5">
 
-            <div className="w-1/2">
-              <Image
-                src="/images/ceo.jpg"
-                alt="Counselor helping student"
-                width={600}
-                height={800}
-                className="w-full h-[450px] object-cover rounded-xl shadow-xl border border-outline-variant"
-              />
+              <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
+                <Image
+                  src="/images/ceo.jpg"
+                  alt="S. M. ARIF KAMAL"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
+              <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
+                <Image
+                  src="/images/ceo.jpg"
+                  alt="DR. HARUN OR RASHID"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+
             </div>
           </div>
-        </div>
 
-        {/* Content */}
-        <div className="lg:col-span-6">
-          <span className="text-secondary font-label-md text-label-md tracking-wider">
-            <div>Chief Executive Officer</div>
-            <div>NEXUS JAPANESE LANGUAGE ACADEMY</div>
-          </span>
+          {/* Content */}
+          <div className="lg:col-span-6 text-center lg:text-left">
 
-          <h2 className="font-headline-lg text-2xl sm:text-3xl md:text-4xl text-primary mt-2 mb-4 md:mb-6">
-            S. M. ARIF KAMAL
-          </h2>
-
-          <span className="text-secondary font-label-md text-label-md tracking-wider">
-            <div>Chief Executive Officer</div>
-            <div>AIM JAPANESE LANGUAGE ACADEMY</div>
-          </span>
-
-          <h2 className="font-headline-lg text-2xl sm:text-3xl md:text-4xl text-primary mt-2 mb-4 md:mb-6">
-            DR. HARUN OR RASHID
-          </h2>
-
-          <p className="font-body-md text-sm sm:text-base text-on-surface-variant mb-8 md:mb-10 leading-relaxed max-w-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptas.
-          </p>
-        </div>
-
-        <div className="lg:col-span-12">
-          {/* Swiper */}
-          <Swiper
-            modules={[Pagination]}
-            spaceBetween={20}
-            pagination={{ clickable: true }}
-            breakpoints={{
-              0: {
-                slidesPerView: 1,
-              },
-            }}
-            className="team_swiper"
-          >
-            <SwiperSlide>
-              {/* Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 border-t border-outline-variant pt-6 md:pt-8">
-                {aboutCards.map((card, index) => (
-                  <AboutCard key={index} {...card} />
-                ))}
+            {/* CEO 1 */}
+            <div className="mb-8">
+              <div className="text-secondary text-sm md:text-base uppercase tracking-wider">
+                <div>Chief Executive Officer</div>
+                <div>NEXUS JAPANESE LANGUAGE ACADEMY</div>
               </div>
-            </SwiperSlide>
 
-            <SwiperSlide>
-              {/* Cards */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-5 border-t border-outline-variant pt-6 md:pt-8">
-                {aboutCards.map((card, index) => (
-                  <AboutCard key={index} {...card} />
-                ))}
+              <h2 className="mt-2 text-primary text-2xl sm:text-3xl lg:text-4xl font-headline-lg">
+                S. M. ARIF KAMAL
+              </h2>
+            </div>
+
+            {/* CEO 2 */}
+            <div className="mb-8">
+              <div className="text-secondary text-sm md:text-base uppercase tracking-wider">
+                <div>Chief Executive Officer</div>
+                <div>AIM JAPANESE LANGUAGE ACADEMY</div>
               </div>
-            </SwiperSlide>
-          </Swiper>
+
+              <h2 className="mt-2 text-primary text-2xl sm:text-3xl lg:text-4xl font-headline-lg">
+                DR. HARUN OR RASHID
+              </h2>
+            </div>
+
+            <p className="text-sm sm:text-base leading-7 text-on-surface-variant max-w-2xl mx-auto lg:mx-0">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quisquam, voluptas.
+            </p>
+
+          </div>
+
+          <div className="lg:col-span-12">
+            {/* Swiper */}
+            <Swiper
+              modules={[Pagination]}
+              spaceBetween={20}
+              pagination={{ clickable: true }}
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+              }}
+              className="team_swiper"
+            >
+              <SwiperSlide>
+                {/* Cards */}
+                <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-5 border-t border-outline-variant pt-6 md:pt-8">
+                  {aboutCards.map((card, index) => (
+                    <AboutCard key={index} {...card} />
+                  ))}
+                </div>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                {/* Cards */}
+                <div className="grid grid-cols-2 sm:grid-cols-2 xl:grid-cols-3 gap-5 border-t border-outline-variant pt-6 md:pt-8">
+                  {aboutCards.map((card, index) => (
+                    <AboutCard key={index} {...card} />
+                  ))}
+                </div>
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
       </div>
     </section>
