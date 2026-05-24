@@ -59,7 +59,7 @@ export default function About() {
 
               <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
                 <Image
-                  src="/images/ceo (1).jpeg"
+                  src="/images/ceo (2).jpeg"
                   alt="S. M. ARIF KAMAL"
                   fill
                   className="object-cover"
@@ -68,7 +68,7 @@ export default function About() {
 
               <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
                 <Image
-                  src="/images/ceo (2).jpeg"
+                  src="/images/ceo (1).jpeg"
                   alt="DR. HARUN OR RASHID"
                   fill
                   className="object-cover"
@@ -84,12 +84,12 @@ export default function About() {
             {/* CEO 1 */}
             <div className="mb-8">
               <div className="text-secondary text-sm md:text-base uppercase tracking-wider">
-                <div>Chief Executive Officer</div>
+                <div>Founder & Chairman</div>
                 <div>NEXUS JAPANESE LANGUAGE ACADEMY</div>
               </div>
 
               <h2 className="mt-2 text-primary text-2xl sm:text-3xl lg:text-4xl font-headline-lg">
-                S. M. ARIF KAMAL
+                MOHAMMADMAHMUDUR RAHMAN
               </h2>
             </div>
 
@@ -97,11 +97,11 @@ export default function About() {
             <div className="mb-8">
               <div className="text-secondary text-sm md:text-base uppercase tracking-wider">
                 <div>Chief Executive Officer</div>
-                <div>AIM JAPANESE LANGUAGE ACADEMY</div>
+                <div>NEXUS JAPANESE LANGUAGE ACADEMY</div>
               </div>
 
               <h2 className="mt-2 text-primary text-2xl sm:text-3xl lg:text-4xl font-headline-lg">
-                DR. HARUN OR RASHID
+                S. M. ARIF KAMAL
               </h2>
             </div>
 
