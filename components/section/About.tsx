@@ -59,7 +59,7 @@ export default function About() {
 
               <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
                 <Image
-                  src="/images/ceo.jpg"
+                  src="/images/ceo (1).jpeg"
                   alt="S. M. ARIF KAMAL"
                   fill
                   className="object-cover"
@@ -68,7 +68,7 @@ export default function About() {
 
               <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
                 <Image
-                  src="/images/ceo.jpg"
+                  src="/images/ceo (2).jpeg"
                   alt="DR. HARUN OR RASHID"
                   fill
                   className="object-cover"
