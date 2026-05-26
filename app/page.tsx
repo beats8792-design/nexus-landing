@@ -15,6 +15,9 @@ export default function Home() {
     <>
       {/* <Header /> */}
       {/* <Hero /> */}
+      <h2 className="text-center text-3xl sm:text-4xl lg:text-5xl font-bold font-headline-lg text-primary mt-12">
+        NEXUS JAPANESE LANGUAGE ACADEMY
+      </h2>
       <About />
       {/* <Course /> */}
       {/* <Team /> */}

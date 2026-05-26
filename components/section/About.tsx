@@ -49,7 +49,7 @@ const aboutCards = [
 
 export default function About() {
   return (
-    <section className="py-12 md:py-16 lg:py-20 px-4">
+    <section className="py-6 md:py-8 lg:py-10 px-4">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-8 items-center">
 
@@ -108,7 +108,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="lg:col-span-12">
+          <div className="lg:col-span-12 text-center lg:text-left">
             <p className="text-sm sm:text-base leading-7 text-on-surface-variant mx-auto lg:mx-0">
               NEXUS JAPANESE LANGUAGE ACADEMY is a highly professional educational consultancy organization dedicated to providing quality support and services to students throughout Bangladesh while introducing diverse educational opportunities around the world. With the goal of contributing to the improvement of educational standards, the company carefully evaluates each student’s aptitude, academic background, and career aspirations in order to assist them in selecting the most suitable universities and educational institutions.
               <br />
