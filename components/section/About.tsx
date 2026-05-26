@@ -17,15 +17,15 @@ const aboutCards = [
   },
   {
     image: "/images/location (2).jpg",
-    title: "IELTS / TOEFL Coaching",
+    title: "Japanese N5 Courses",
     description:
       "Comprehensive training programs to help you achieve your target scores.",
   },
   {
     image: "/images/location (3).jpg",
-    title: "Spoken English",
+    title: "Spoken Japanese",
     description:
-      "Interactive classes designed to improve fluency and confidence in English.",
+      "Interactive classes designed to improve fluency and confidence in Japanese.",
   },
   {
     image: "/images/location (4).jpg",
