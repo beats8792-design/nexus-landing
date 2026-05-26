@@ -51,7 +51,7 @@ export default function About() {
   return (
     <section className="py-12 md:py-16 lg:py-20 px-4">
       <div className="container mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-5 lg:gap-8 items-center">
 
           {/* Images */}
           <div className="lg:col-span-6">
@@ -84,8 +84,7 @@ export default function About() {
             {/* CEO 1 */}
             <div className="mb-8">
               <div className="text-secondary text-sm md:text-base uppercase tracking-wider">
-                <div>Founder & Chairman</div>
-                <div>NEXUS JAPANESE LANGUAGE ACADEMY</div>
+                <div>Chairman</div>
               </div>
 
               <h2 className="mt-2 text-primary text-2xl sm:text-3xl lg:text-4xl font-headline-lg">
@@ -97,7 +96,6 @@ export default function About() {
             <div className="mb-8">
               <div className="text-secondary text-sm md:text-base uppercase tracking-wider">
                 <div>Chief Executive Officer</div>
-                <div>NEXUS JAPANESE LANGUAGE ACADEMY</div>
               </div>
 
               <h2 className="mt-2 text-primary text-2xl sm:text-3xl lg:text-4xl font-headline-lg">
@@ -106,12 +104,18 @@ export default function About() {
             </div>
 
             <p className="text-sm sm:text-base leading-7 text-on-surface-variant max-w-2xl mx-auto lg:mx-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quisquam, Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quisquam, Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Quisquam, voluptas.
+              NEXUS JAPANESE LANGUAGE ACADEMY is under Nexus Group. NEXUS JAPANESE LANGUAGE ACADEMY has several branches in Bangladesh. Our services include providing Japanese language education  and student consultancy. We provide Bangladeshi students with opportunities to pursue higher education abroad. Established by a team of professionals with extensive experience in overseas education, language training and international career support, the organization is committed to delivering effective and professional guidance together with internationally recognized educational solutions to help students achieve academic success overseas.
             </p>
+          </div>
 
+          <div className="lg:col-span-12">
+            <p className="text-sm sm:text-base leading-7 text-on-surface-variant mx-auto lg:mx-0">
+              NEXUS JAPANESE LANGUAGE ACADEMY is a highly professional educational consultancy organization dedicated to providing quality support and services to students throughout Bangladesh while introducing diverse educational opportunities around the world. With the goal of contributing to the improvement of educational standards, the company carefully evaluates each student’s aptitude, academic background, and career aspirations in order to assist them in selecting the most suitable universities and educational institutions.
+              <br />
+              In addition, NEXUS JAPANESE LANGUAGE ACADEMY has established strong partnerships with overseas educational institutions to ensure that students are able to enroll in appropriate and reputable institutions. Through detailed profile analysis and personalized counseling sessions, we recommend the most suitable universities and academic programs, enabling students to make the best possible educational choices. NEXUS JAPANESE LANGUAGE ACADEMY provides overseas study consultancy services for multiple destination countries including Japan. NEXUS JAPANESE LANGUAGE ACADEMY has maintained cooperative relationships with many Japanese language schools in Japan for the last several years and currently collaborates with many language schools and universities across its study destination countries.
+              <br />
+              As a “one-stop solution” for overseas education in Bangladesh, NEXUS JAPANESE LANGUAGE ACADEMY offers reliable, highly regarded, professional, and ethical educational consultancy services. From university admissions procedures to visa application support, we provide comprehensive assistance for all aspects of studying abroad, enabling both students and working professionals to smoothly achieve their international education goals. Its experienced professional team and well-trained counselors carefully assist students in selecting the most suitable study destinations and academic pathways by taking into consideration their educational qualifications and professional backgrounds.
+            </p>
           </div>
 
           <div className="lg:col-span-12">

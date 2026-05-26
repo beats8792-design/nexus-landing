@@ -8,6 +8,13 @@ const branchs = [
         email: "info@nexusgroupedu.com",
     },
     {
+        title: "NEXUS JAPANESE LANGUAGE ACADEMY - Cumilla Branch",
+        address:
+            "M.R.I. Point Building, 4th Floor, Kandirpar, Badurtala, Cumilla",
+        phone: "+8801913832298,+8801827806813",
+        email: "infonexusgroupcumilla@gmail.com",
+    },
+    {
         title: "NEXUS JAPANESE LANGUAGE ACADEMY - Kishoreganj Branch",
         address: "House#23, Road#7, Harua, Kishoreganj",
         phone: "+8801968666111,+8801968666222",
@@ -19,13 +26,6 @@ const branchs = [
             "Stadium West Gate, Hasan Market, 2nd Floor, College Road, Mathpara, Munshiganj",
         phone: "+8801968666111,+8801968666222",
         email: "info@nexusgroupedu.com",
-    },
-    {
-        title: "NEXUS JAPANESE LANGUAGE ACADEMY - Cumilla Branch",
-        address:
-            "M.R.I. Point Building, 4th Floor, Kandirpar, Badurtala, Cumilla",
-        phone: "+8801913832298,+8801827806813",
-        email: "infonexusgroupcumilla@gmail.com",
     },
 ];
 
