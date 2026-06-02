@@ -17,7 +17,7 @@ const aboutCards = [
   },
   {
     image: "/images/location (2).jpg",
-    title: "Japanese N4 Courses",
+    title: "Japanese N5 and N4 Courses",
     description:
       "Comprehensive training programs to help you achieve your target scores.",
   },
