@@ -62,14 +62,14 @@ export default function About() {
                 <div className="relative aspect-[4/5] overflow-hidden rounded-xl shadow-xl border border-outline-variant">
                   <Image
                     src="/images/ceo (2).jpeg"
-                    alt="MOHAMMAD MAHMUDUR RAHMAN"
+                    alt="MOHAMMADMAHMUDUR RAHMAN"
                     fill
                     className="object-cover"
                   />
                 </div>
 
                 <h2 className="mt-5 text-primary text-2xl sm:text-3xl font-headline-lg">
-                  MOHAMMAD MAHMUDUR RAHMAN
+                  MOHAMMADMAHMUDUR RAHMAN
                 </h2>
 
                 <div className="mt-2 text-secondary text-sm md:text-base uppercase tracking-wider">
